@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-elastic-beanstalk`](https://www.npmjs.com/package/@aws-sdk/client-elastic-beanstalk/v/3.974.0).
+[`@aws-sdk/client-elastic-beanstalk`](https://www.npmjs.com/package/@aws-sdk/client-elastic-beanstalk/v/3.975.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.974.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.975.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-FUc1GOs7KPFDfEppdACpPLg0Zy7Czr5xZ3sg5VZsT+ZY+2Ya06RPPx6hVt0H0R4u
+sha384-xFQthgPmJnLP2fgHbg66lUVoj9FDv1dWnMFpW5LCf86vRf0HqJW0wFppoaY2pxfW
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-elastic-beanstalk": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.974.0/index.min.mjs"
+            "@aws-sdk/client-elastic-beanstalk": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.975.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.974.0/index.min.mjs": "sha384-FUc1GOs7KPFDfEppdACpPLg0Zy7Czr5xZ3sg5VZsT+ZY+2Ya06RPPx6hVt0H0R4u"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.975.0/index.min.mjs": "sha384-xFQthgPmJnLP2fgHbg66lUVoj9FDv1dWnMFpW5LCf86vRf0HqJW0wFppoaY2pxfW"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-elastic-beanstalk": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.974.0/index.min.mjs"
+                        "@aws-sdk/client-elastic-beanstalk": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.975.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.974.0/index.min.mjs": "sha384-FUc1GOs7KPFDfEppdACpPLg0Zy7Czr5xZ3sg5VZsT+ZY+2Ya06RPPx6hVt0H0R4u"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-beanstalk@3.975.0/index.min.mjs": "sha384-xFQthgPmJnLP2fgHbg66lUVoj9FDv1dWnMFpW5LCf86vRf0HqJW0wFppoaY2pxfW"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.974.0`)
+* Always pin to a specific version (`@3.975.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-elastic-beanstalk/blob/refs/tags/3.974.0/LICENSE
+https://github.com/cloud-sdk-builds/client-elastic-beanstalk/blob/refs/tags/3.975.0/LICENSE
 ```
 
 ---
